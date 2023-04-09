@@ -1,0 +1,14 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    gap: 30px;
+    border-bottom: black solid;
+    width: 100%;
+    justify-content: center;
+}
