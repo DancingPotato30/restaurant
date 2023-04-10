@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".content{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n.header{\\n    display: flex;\\n    gap: 30px;\\n    border-bottom: black solid;\\n    width: 100%;\\n    justify-content: center;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body{\\n    background-color: #EAFFD0;\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n}\\n\\n/*CONTENT*/\\n\\n.content{\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    border-left: #95E1D3 solid;\\n    border-right: #95E1D3 solid;\\n    width: 80vw;\\n    justify-content: center;\\n    padding: 40px;\\n}\\n\\n.header{\\n    display: flex;\\n    gap: 40px;\\n    border-bottom: #95E1D3 solid;\\n    width: 100%;\\n    justify-content: center;\\n    padding: 10px;\\n    position: sticky;\\n    top: 0;\\n    background-color: #EAFFD0;\\n}\\n\\n.active{\\n    border-radius: 15px 50px 30px;\\n    border: #95E1D3 solid;\\n    background-color: #81beb3;\\n}\\n\\nbutton{\\n    font-size: 2rem;\\n    border: #95E1D3 solid;\\n    border-radius: 30px;\\n    background-color: #95E1D3;\\n    padding: 5px;\\n}\\n\\nbutton:hover{\\n    background-color: #81beb3;\\n    border: #95E1D3 solid;\\n}\\n\\n.text{\\n    font-size: 8rem;\\n    display: flex;\\n    align-items: center;\\n}\\n\\n/*HOME*/\\n\\n\\nimg{\\n    width: 300px;\\n}\\n\\n.intro{\\n    display: flex;\\n    background-color: #FCE38A;\\n    width: 100%;\\n    margin: 0px;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n.description{\\n    font-size: 3rem;\\n    margin: 20px;\\n}\\n\\n/*MENU*/\\n.menuGrid{\\n    margin-top: 30px;\\n    display: grid;\\n    grid-template-columns: 1fr 1.1fr;\\n    grid-template-rows: repeat(7, 1fr);\\n    border: solid;\\n    column-gap: 30px;\\n    border-radius: 30px;\\n    box-shadow: 5px 5px 2px grey;\\n    background-color: #FCE38A;\\n}\\n\\n.menuGrid > img{\\n    height: 550px;\\n    width: 550px;\\n    border-radius: 30px;\\n}\\n\\n.info{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: center;\\n}\\n\\n.info > .name{\\n    font-size: 2.5rem;\\n    font-weight: bold;\\n}\\n\\n.ingredients{\\n    color: rgb(61, 61, 61);\\n    font-size: 1.2rem;\\n    width: 550px;\\n}\\n\\n.price{\\n    font-size: 1.7rem;\\n}\\n\\n/*CONTACT*/\\nform{\\n    border: solid grey;\\n    border-width: thin;\\n    display: flex;\\n    flex-direction: column;\\n    gap: 10px;\\n    padding: 30px;\\n    border-radius: 20px;\\n    background-color: #FCE38A;\\n    box-shadow: 5px 5px 2px gray;\\n}\\n\\n.formBody{\\n    display: flex;\\n    flex-direction: column;\\n    gap: 30px;\\n}\\n\\n.formTop{\\n    font-size: 2.9rem;\\n}\\n\\n.formBody > div{\\n    display: flex;\\n    flex-direction: column;\\n}\\n\\nlabel{\\n    font-size: 1.5rem;\\n    font-weight: bold;\\n}\\n\\ninput{\\n    width: 100%;\\n    font-size: 1.6rem;\\n}\\n\\ntextarea{\\n    width: 100%;\\n}\\n\\n.formBody > input[type=button]{\\n    font-size: 1.5rem;\\n    padding: 20px;\\n    width: 100%;\\n    border-radius: 30px;\\n    border: grey;\\n    border-width: thin;\\n}\\n\\n.formBody > input[type = button]:hover{\\n    background-color: rgb(119, 119, 119);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -110,13 +110,123 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printContact\": () => (/* binding */ printContact)\n/* harmony export */ });\nfunction printContact() {\n  const form = document.createElement(\"form\");\n  const formTop = document.createElement(\"div\");\n  const formBody = document.createElement(\"div\");\n  const nameContainer = document.createElement(\"div\");\n  const emailContainer = document.createElement(\"div\");\n  const feedbackContainer = document.createElement(\"div\");\n  const nameLabel = document.createElement(\"label\");\n  const emailLabel = document.createElement(\"label\");\n  const feedbackLabel = document.createElement(\"label\");\n  const nameInput = document.createElement(\"input\");\n  const emailInput = document.createElement(\"input\");\n  const submitButton = document.createElement(\"input\");\n  const feedbackInput = document.createElement(\"textarea\");\n\n  formTop.classList.add(\"formTop\");\n  formBody.classList.add(\"formBody\");\n  feedbackInput.setAttribute(\"cols\", \"30\");\n  feedbackInput.setAttribute(\"rows\", \"10\");\n  submitButton.setAttribute(\"value\", \"Submit Feedback\");\n  submitButton.setAttribute(\"type\", \"button\");\n\n  formTop.textContent = \"Contact us through here!\";\n  nameLabel.textContent = \"NAME\";\n  emailLabel.textContent = \"EMAIL\";\n  feedbackLabel.textContent = \"FEEDBACK\";\n\n  nameContainer.appendChild(nameLabel);\n  nameContainer.appendChild(nameInput);\n  formBody.appendChild(nameContainer);\n\n  emailContainer.appendChild(emailLabel);\n  emailContainer.appendChild(emailInput);\n  formBody.appendChild(emailContainer);\n\n  feedbackContainer.appendChild(feedbackLabel);\n  feedbackContainer.appendChild(feedbackInput);\n  formBody.appendChild(feedbackContainer);\n\n  formBody.appendChild(submitButton);\n\n  form.appendChild(formTop);\n  form.appendChild(formBody);\n\n  document.querySelector(\".content\").appendChild(form);\n}\n\n//Append elements correctly\n\n\n//# sourceURL=webpack://restaurant/./src/contact.js?");
+
+/***/ }),
+
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printHome\": () => (/* binding */ printHome)\n/* harmony export */ });\n/* harmony import */ var _images_ramenBowl_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/ramenBowl.png */ \"./src/images/ramenBowl.png\");\n\n\nfunction printHome() {\n  const content = document.querySelector(\".content\");\n  const intro = document.createElement(\"div\");\n  const description = document.createElement(\"div\");\n  const title = document.createElement(\"div\");\n  const ramenImg = new Image();\n  const p1 = document.createElement(\"p\");\n  const p2 = document.createElement(\"p\");\n\n  intro.classList.add(\"intro\");\n  description.classList.add(\"description\");\n  title.classList.add(\"text\");\n\n  ramenImg.src = _images_ramenBowl_png__WEBPACK_IMPORTED_MODULE_0__;\n  p1.innerHTML =\n    \"If you're sick of cheap instant noodles plaguing the market with it's decent-at-best flavor, and want to try some <i>real</i> ramen, then you've come to the right place!\";\n  p2.innerHTML =\n    \"<b>Oishi Ramen</b> is regarded as the best ramen restaurant in Egypt, known for it's rich flavoring and cheap prices, it is absolutely a joy to eat here! We will definitely guarantee you enjoy your visit here, and you'll walk out with a wide smile and a full stomach!\";\n\n  title.textContent = \"Oishi Ramen\";\n\n  intro.appendChild(title);\n  intro.appendChild(ramenImg);\n  description.appendChild(p1);\n  description.appendChild(p2);\n  content.appendChild(intro);\n  content.appendChild(description);\n}\n\n\n//# sourceURL=webpack://restaurant/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconsole.log(\"Hello, it works\");\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n\nfunction printManager() {\n  printHeader();\n  window.addEventListener(\"load\", () => {\n    printSwitcher(\"home\");\n  });\n}\n\nfunction printHeader() {\n  const header = document.createElement(\"div\");\n  const homeBtn = document.createElement(\"button\");\n  const menuBtn = document.createElement(\"button\");\n  const contactBtn = document.createElement(\"button\");\n\n  header.classList.add(\"header\");\n  homeBtn.classList.add(\"home\");\n  homeBtn.classList.add(\"active\");\n  menuBtn.classList.add(\"menu\");\n  contactBtn.classList.add(\"contact\");\n\n  homeBtn.textContent = \"HOME\";\n  menuBtn.textContent = \"MENU\";\n  contactBtn.textContent = \"CONTACT\";\n\n  homeBtn.addEventListener(\"click\", () => {\n    homeBtn.classList.add(\"active\");\n    menuBtn.classList.remove(\"active\");\n    contactBtn.classList.remove(\"active\");\n    printSwitcher(\"home\");\n  });\n  menuBtn.addEventListener(\"click\", () => {\n    homeBtn.classList.remove(\"active\");\n    menuBtn.classList.add(\"active\");\n    contactBtn.classList.remove(\"active\");\n    printSwitcher(\"menu\");\n  });\n  contactBtn.addEventListener(\"click\", () => {\n    homeBtn.classList.remove(\"active\");\n    menuBtn.classList.remove(\"active\");\n    contactBtn.classList.add(\"active\");\n    printSwitcher(\"contact\");\n  });\n\n  header.appendChild(homeBtn);\n  header.appendChild(menuBtn);\n  header.appendChild(contactBtn);\n  document.body.insertBefore(header, document.querySelector(\".content\"));\n}\n\nfunction printSwitcher(state) {\n  cleanContent();\n  if (state == \"home\") {\n    (0,_home__WEBPACK_IMPORTED_MODULE_1__.printHome)();\n  } else if (state == \"contact\") {\n    (0,_contact__WEBPACK_IMPORTED_MODULE_3__.printContact)();\n  } else if (state == \"menu\") {\n    (0,_menu__WEBPACK_IMPORTED_MODULE_2__.printMenu)();\n  }\n}\n\nfunction cleanContent() {\n  document.querySelector(\".content\").innerHTML = \"\";\n}\n\nprintManager();\n\n\n//# sourceURL=webpack://restaurant/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"printMenu\": () => (/* binding */ printMenu)\n/* harmony export */ });\n/* harmony import */ var _images_miso_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/miso.jpg */ \"./src/images/miso.jpg\");\n/* harmony import */ var _images_modern_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/modern.jpg */ \"./src/images/modern.jpg\");\n/* harmony import */ var _images_shio_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/shio.jpg */ \"./src/images/shio.jpg\");\n/* harmony import */ var _images_shoyu_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/shoyu.jpg */ \"./src/images/shoyu.jpg\");\n/* harmony import */ var _images_tonkotsu_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/tonkotsu.jpg */ \"./src/images/tonkotsu.jpg\");\n/* harmony import */ var _images_Tsukemen_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/Tsukemen.jpg */ \"./src/images/Tsukemen.jpg\");\n/* harmony import */ var _images_vegan_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/vegan.jpg */ \"./src/images/vegan.jpg\");\n\n\n\n\n\n\n\n\nfunction printMenu() {\n  const menu = document.createElement(\"div\");\n\n  const misoInfo = document.createElement(\"div\");\n  const modernInfo = document.createElement(\"div\");\n  const shioInfo = document.createElement(\"div\");\n  const shoyuInfo = document.createElement(\"div\");\n  const tonkotsuInfo = document.createElement(\"div\");\n  const tsukemenInfo = document.createElement(\"div\");\n  const veganInfo = document.createElement(\"div\");\n\n  const modernName = document.createElement(\"div\");\n  const modernIngr = document.createElement(\"div\");\n  const modernPrice = document.createElement(\"div\");\n\n  const shioName = document.createElement(\"div\");\n  const shioIngr = document.createElement(\"div\");\n  const shioPrice = document.createElement(\"div\");\n\n  const shoyuName = document.createElement(\"div\");\n  const shoyuIngr = document.createElement(\"div\");\n  const shoyuPrice = document.createElement(\"div\");\n\n  const tonkotsuName = document.createElement(\"div\");\n  const tonkotsuIngr = document.createElement(\"div\");\n  const tonkotsuPrice = document.createElement(\"div\");\n\n  const tsukemenName = document.createElement(\"div\");\n  const tsukemenIngr = document.createElement(\"div\");\n  const tsukemenPrice = document.createElement(\"div\");\n\n  const veganName = document.createElement(\"div\");\n  const veganIngr = document.createElement(\"div\");\n  const veganPrice = document.createElement(\"div\");\n\n  const misoName = document.createElement(\"div\");\n  const misoIngr = document.createElement(\"div\");\n  const misoPrice = document.createElement(\"div\");\n\n  const misoImg = new Image();\n  const modernImg = new Image();\n  const shioImg = new Image();\n  const shoyuImg = new Image();\n  const tonkotsuImg = new Image();\n  const tsukemenImg = new Image();\n  const veganImg = new Image();\n\n  const priceArray = [\n    misoPrice,\n    tonkotsuPrice,\n    tsukemenPrice,\n    modernPrice,\n    veganPrice,\n    shioPrice,\n    shoyuPrice,\n  ];\n  const infoArray = [\n    misoInfo,\n    tonkotsuInfo,\n    tsukemenInfo,\n    modernInfo,\n    veganInfo,\n    shioInfo,\n    shoyuInfo,\n  ];\n  const nameArray = [\n    misoName,\n    tonkotsuName,\n    tsukemenName,\n    modernName,\n    veganName,\n    shioName,\n    shoyuName,\n  ];\n  const ingrArray = [\n    misoIngr,\n    tonkotsuIngr,\n    tsukemenIngr,\n    modernInfo,\n    veganIngr,\n    shioIngr,\n    shoyuIngr,\n  ];\n\n  menu.classList.add(\"menuGrid\");\n  infoArray.forEach((item) => {\n    item.classList.add(\"info\");\n  });\n  nameArray.forEach((item) => {\n    item.classList.add(\"name\");\n  });\n  priceArray.forEach((item) => {\n    item.classList.add(\"price\");\n  });\n  ingrArray.forEach((item) => {\n    item.classList.add(\"ingredients\");\n  });\n\n  misoImg.src = _images_miso_jpg__WEBPACK_IMPORTED_MODULE_0__;\n  tonkotsuImg.src = _images_tonkotsu_jpg__WEBPACK_IMPORTED_MODULE_4__;\n  tsukemenImg.src = _images_Tsukemen_jpg__WEBPACK_IMPORTED_MODULE_5__;\n  modernImg.src = _images_modern_jpg__WEBPACK_IMPORTED_MODULE_1__;\n  veganImg.src = _images_vegan_jpg__WEBPACK_IMPORTED_MODULE_6__;\n  shioImg.src = _images_shio_jpg__WEBPACK_IMPORTED_MODULE_2__;\n  shoyuImg.src = _images_shoyu_jpg__WEBPACK_IMPORTED_MODULE_3__;\n\n  misoImg.setAttribute(\"alt\", \"Miso Ramen\");\n  tonkotsuImg.setAttribute(\"alt\", \"Tonkotsu Ramen\");\n  tsukemenImg.setAttribute(\"alt\", \"Tsukemen Ramen\");\n  modernImg.setAttribute(\"alt\", \"Modern Ramen\");\n  veganImg.setAttribute(\"alt\", \"Vegan Ramen\");\n  shioImg.setAttribute(\"alt\", \"Shio Ramen\");\n  shoyuImg.setAttribute(\"alt\", \"Shoyu Ramen\");\n\n  misoName.textContent = \"Miso Ramen\";\n  tonkotsuName.textContent = \"Tonkotsu Ramen\";\n  tsukemenName.textContent = \"Tsukemen Ramen\";\n  modernName.textContent = \"Modern Ramen\";\n  veganName.textContent = \"Vegan Ramen\";\n  shioName.textContent = \"Shio Ramen\";\n  shoyuName.textContent = \"Shoyu Ramen\";\n\n  misoIngr.textContent =\n    \"Miso noodles, Doubanjiang (spicy or non-spicy bean paste), Sesame seeds and sesame oil, chicken broth, White pepper powder\";\n  tonkotsuIngr.textContent = \"Broth, Noodles, Pork, Egg, and Tare.\";\n  tsukemenIngr.textContent =\n    \"Soup broth, Pork belly, Ginger, Garlic, Shiitake mushrooms, Shimeji mushrooms, Green onions, Roasted sesame oil, Doubanjiang, Katsuobushi\";\n  modernIngr.textContent =\n    \"Sweet potato, White miso paste, Toasted sesame oil, Sriracha, Vegetables, Eggs, Soba Noodles, Portobello mushrooms, Gluten-free tamari, Steamed greens (broccoli, broccoli rabe, kale, etc.) or packed raw spinach, Black sesame seeds (optional), Minced fresh red Thai chili (optional)\";\n  veganIngr.textContent =\n    \"Onion, Garlic, Ginger (optional), White miso paste, Vegetable stock,  Soy sauce or tamari, Tahini,  Ramen noodles\";\n  shioIngr.textContent = `Pork Chashu,\n  Tori Hamu Japanese Chicken Ham,\n  Miso Egg,\n  Menma,\n  Naruto,\n  Vegetables, \n  Nori (seaweed) sheet`;\n  shoyuIngr.textContent = `Miso noodles, Doubanjiang (spicy or non-spicy bean paste), Sesame seeds and sesame oil, chicken broth, White pepper powder`;\n\n  priceArray.forEach((item) => {\n    item.textContent = \"$9.80\";\n  });\n\n  misoInfo.appendChild(misoName);\n  misoInfo.appendChild(misoIngr);\n  misoInfo.appendChild(misoPrice);\n\n  tonkotsuInfo.appendChild(tonkotsuName);\n  tonkotsuInfo.appendChild(tonkotsuIngr);\n  tonkotsuInfo.appendChild(tonkotsuPrice);\n\n  tsukemenInfo.appendChild(tsukemenName);\n  tsukemenInfo.appendChild(tsukemenIngr);\n  tsukemenInfo.appendChild(tsukemenPrice);\n\n  modernInfo.appendChild(modernName);\n  modernInfo.appendChild(modernIngr);\n  modernInfo.appendChild(modernPrice);\n\n  veganInfo.appendChild(veganName);\n  veganInfo.appendChild(veganIngr);\n  veganInfo.appendChild(veganPrice);\n\n  shioInfo.appendChild(shioName);\n  shioInfo.appendChild(shioIngr);\n  shioInfo.appendChild(shioPrice);\n\n  shoyuInfo.appendChild(shoyuName);\n  shoyuInfo.appendChild(shoyuIngr);\n  shoyuInfo.appendChild(shoyuPrice);\n\n  menu.appendChild(misoImg);\n  menu.appendChild(misoInfo);\n  menu.appendChild(tonkotsuImg);\n  menu.appendChild(tonkotsuInfo);\n  menu.appendChild(tsukemenImg);\n  menu.appendChild(tsukemenInfo);\n  menu.appendChild(modernImg);\n  menu.appendChild(modernInfo);\n  menu.appendChild(veganImg);\n  menu.appendChild(veganInfo);\n  menu.appendChild(shioImg);\n  menu.appendChild(shioInfo);\n  menu.appendChild(shoyuImg);\n  menu.appendChild(shoyuInfo);\n\n  document.querySelector(\".content\").appendChild(menu);\n}\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/images/Tsukemen.jpg":
+/*!*********************************!*\
+  !*** ./src/images/Tsukemen.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"68399b4afa5df534e9d9.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/Tsukemen.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/miso.jpg":
+/*!*****************************!*\
+  !*** ./src/images/miso.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1d50a00694d57a0ea21e.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/miso.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/modern.jpg":
+/*!*******************************!*\
+  !*** ./src/images/modern.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e54e9a206f3093ded9fb.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/modern.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/ramenBowl.png":
+/*!**********************************!*\
+  !*** ./src/images/ramenBowl.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ba5cf07f9fda59baca22.png\";\n\n//# sourceURL=webpack://restaurant/./src/images/ramenBowl.png?");
+
+/***/ }),
+
+/***/ "./src/images/shio.jpg":
+/*!*****************************!*\
+  !*** ./src/images/shio.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"909cff9352b52103386e.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/shio.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/shoyu.jpg":
+/*!******************************!*\
+  !*** ./src/images/shoyu.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ab1178ab496e5d2ab5e9.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/shoyu.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/tonkotsu.jpg":
+/*!*********************************!*\
+  !*** ./src/images/tonkotsu.jpg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"eee7b3a0760b82aa0636.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/tonkotsu.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/vegan.jpg":
+/*!******************************!*\
+  !*** ./src/images/vegan.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"94ab66b7f6fad0e38deb.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/vegan.jpg?");
 
 /***/ })
 
@@ -171,6 +281,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +307,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
